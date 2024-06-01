@@ -1,0 +1,27 @@
+{
+  "name": "api-rest-node-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev ./src/index.ts"
+  },
+  "author": "Deivinson Pereira",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.11.0",
+    "@typescript-eslint/parser": "^7.11.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.56.0",
+    "express": "^4.19.2",
+    "http-status-codes": "^2.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "@types/express": "^4.17.21",
+    "globals": "^15.3.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.11.0"
+  }
+}
